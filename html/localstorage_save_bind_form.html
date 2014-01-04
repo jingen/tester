@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <title>localStorage</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css">
+    <script src="modernizr.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+  <style>
+    textarea{width: 300px; height: 150px; }
+  </style>
+</head>
+<body>
+
+<h2>LocalStorage</h2>
+<form class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" for="title">Your title?</label>
+    <div class="controls">
+      <input type="text" name="title" id="title">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="name">Your name?</label>
+    <div class="controls">
+      <input type="text" name="name" id="name">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="comment">Your comment?</label>
+    <div class="controls">
+      <textarea name="comment" id="comment"></textarea>
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="radio">Your radio?</label>
+    <div class="controls">
+      <input type="radio" name="radio" id="radio">
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+      <input id="submit" class="btn btn-primary" type="submit" value="Submit">
+    </div>
+  </div>
+</form>
+
+<script>
+(function(){
+
+  var form = $('form.form-horizontal');
+
+  if(localStorage.formData){
+    (function bindStorageToForm(){
+      var data = localStorage.formData,
+          sp = data.split('&'),
+          pair;
+
+          $.each(sp, function(i, val){
+            pair = val.split('=');
+
+            if (!pair[1]) {return true};
+
+            if(pair[1] === 'on'){
+              form[0][pair[0]].checked = true;
+            }
+
+            form[0][pair[0]].value = unescape(pair[1]).replace(/\+/g, ' ');
+          });
+    })();
+  }
+
+  if(Modernizr.localstorage){
+    setInterval(function(){
+      localStorage.formData = form.serialize();
+    }, 3000);
+  }
+
+})();
+</script>
+</body>
+</html>

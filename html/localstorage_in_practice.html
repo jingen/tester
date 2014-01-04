@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>localStorage</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css">
+    <script src="modernizr.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+  <style>
+    textarea{width: 300px; height: 150px; }
+  </style>
+</head>
+<body>
+
+<h2>LocalStorage</h2>
+<form class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" for="comment">Your Comment?</label>
+    <div class="controls">
+      <textarea name="comment" id="comment"></textarea>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+      <input id="submit" class="btn btn-primary" type="submit" value="Submit">
+    </div>
+  </div>
+</form>
+
+<script>
+  Modernizr.load({
+    test: Modernizr.localstorage,
+    nope: 'localstorage.js',
+    complete: function(){
+      $(function(){
+        var comment = $('#comment'), submit = $('#submit'), updateInterval;
+        !!localStorage.comment && $('#comment').val(localStorage.comment);
+        comment
+          .on('focus', function(){
+            updateInterval = setInterval(function(){
+              localStorage.comment = comment.val();
+            }, 5000);
+          })
+          .on('blur', function(){
+            clearInterval(updateInterval);
+          });
+
+        submit.on('click',function(){
+          localStorage.removeItem('comment');
+        });
+      });
+    }
+  });
+
+</script>
+</body>
+</html>

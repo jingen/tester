@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular</title>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css">
+</head>
+<body>
+ <div ng-app="oa">
+  <div ng-controller="First">
+    <h1>{{data.message}}</h1>
+    <input type="text" ng-model="data.message">
+  </div>
+  <div ng-controller="Second">
+    <h1>{{data.message | reverse}}</h1>
+    <input type="text" ng-model="data.message">
+  </div>
+  <div ng-controller="Third">
+    <h1>{{reverseMsg(data.message)}}</h1>
+    <input type="text" ng-model="data.message">
+  </div>
+
+  <div class="search" ng-controller="Search">
+    <!-- <input class="search-query" type="search" ng-model="search" > -->
+    <!-- <input class="search-query" type="search" ng-model="search.name" > -->
+    <input type="search" class="search-query" ng-model="search.$">
+    <table class="table">
+    <!-- <tr ng-repeat="person in people | filter:search"> -->
+    <tr ng-repeat="person in people | orderBy:'-name' | limitTo: -2">
+      <td>{{person.name | lowercase}}</td>
+      <td>{{person.job | uppercase}}</td>
+    </tr>
+    </table>
+  </div>
+</div> 
+
+<script src="script1_9.js"></script>
+</body>
+</html>

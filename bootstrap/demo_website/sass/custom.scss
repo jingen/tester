@@ -1,0 +1,67 @@
+body{
+  padding-top: 15em;
+}
+
+@media only screen and (max-width: 980px){
+    body {
+        padding-top: 0;
+    }    
+}
+
+div#logo{
+  position: absolute;
+  z-index: 2;
+  top: 5px;
+  left: 0px;
+}
+
+img#logo{
+  width: 370px;
+  height: 175px;
+}
+
+div.navbar{
+  z-index: 1;
+  .brand{
+    position: relative;
+    left: 75px;
+  }
+}
+
+div.form-actions {
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
+}
+
+div.slider-bg{
+  background-image:url("/img/laptop.png");
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  width:770px;
+  height:430px;
+}
+
+div#home-carousel{
+  width: 490px;
+  position: relative;
+  top: 52px;
+  left: 139px;
+  .carousel-indicators li{
+    background-color: #ccc;
+    &.active{
+      background-color: black;
+    }
+  }
+}
+ul.thumbnails{
+  margin: 0 auto;
+  img{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+// @import "compass";
+// @import "icons/*.png";
+// @include all-icons-sprites;

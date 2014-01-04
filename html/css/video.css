@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.video-container{
+  width: 640px;
+  height: 360px;
+  position: relative;
+}
+
+.video-container .controls{
+  background-color: rgba(255,255,255,.5);
+  position: absolute;
+  bottom: 0px;
+  width: 640px;
+  height: 30px;
+}
+
+.video-container .controls button{
+  background-color: #fff;
+  border: 1px solid #ddd;
+  opacity: 0.8;
+  border-radius: 8px;
+}
+
+#inputSeek{
+  width: 250px;
+}
+#inputVolume{
+  width: 80px;
+}

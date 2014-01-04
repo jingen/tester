@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>History</title>
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+<img src="http://lorempixel.com/200/200/" alt="">
+  <ul>
+    <li><a href="http://lorempixel.com/200/200/city" title="city" data-url="city">city</a></li>
+    <li><a href="http://lorempixel.com/200/200/sports" title="sports" data-url="sports">sports</a></li>
+    <li><a href="http://lorempixel.com/200/200/people" title="people" data-url="people">people</a></li>
+  </ul>
+
+  <div class="result">
+    <script id="template" type="template">
+      <h2>{{title}}</h2>
+      <img src="{{imgSrc}}" alt="{{title}}">
+    </script>
+  </div>
+  <button id="button1">click1</button>
+  <button id="button2">click2</button>
+  <script>
+  ;(function () {
+    // if(Modernizr.history)
+    // or
+    if(!!window.history && history.pushState)
+    {
+      
+      var Viewer = {
+        template: $('#template').html(),
+
+        init: function(){
+          $('ul').on('click', 'a', function(e){
+            e.preventDefault();
+            Viewer.appendTemplate(this)
+            .updateHistory(this);
+          });
+          this.handleState();
+        },
+        appendTemplate: function(data){
+          var template = 
+          this.template.replace(/{{title}}/g, data.title)
+          .replace(/{{imgSrc}}/g, data.href);
+          $('div.result').children().remove().end()
+          .append(template);
+          return this;
+        },
+        updateHistory: function(data){
+          var dataToSave = {
+            title: data.title,
+            href: data.href,
+            url: data.dataset.url
+          };
+
+          history.pushState(
+            dataToSave,
+            data.title,
+            data.dataset.url
+            )
+        },
+        handleState: function(){
+          $(window).on('popstate', function(e){
+            if(e.originalEvent.state){
+              Viewer.appendTemplate(e.originalEvent.state);
+            }
+          });
+        }
+      };
+      Viewer.init();
+    }
+  })();
+  </script>
+</body>
+</html>

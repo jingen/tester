@@ -1,0 +1,31 @@
+<div class="container" ng-app="ngImage">
+<h1>Open Assembly</h1>
+  <div ng-controller="ImageResize">
+
+    <label class="text">Image URL:
+      <input type="text" ng-model="imageUrl">
+    </label>
+
+    <label class="text">Width:
+      <input type="text" ng-model="imageWidth">
+    </label>
+
+    <label class="text">Height:
+      <input type="text" ng-model="imageHeight">
+    </label>
+
+    <div>
+      <button class="btn btn-primary" ng-click="createImage()">resize</button>
+    </div>
+
+    <img ng-src="{{newImage}}" alt="resized image">
+
+
+  </div>
+  <div ng-controller="SpellCheck">
+  <label class="text"> Word: <input type="text" ng-model="words"></label>
+    <div>
+      <button class="btn btn-primary" ng-click="check()">Check</button>
+    </div>
+    
+  </div>

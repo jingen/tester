@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Html5 Video</title>
+</head>
+<body>
+
+  <video id="myVideo" width="420" height="345" preload controls>
+    <source src="videos/oa_student.mp4" type="video/mp4"></source>
+    <source src="videos/oa_student.webm" type="video/webm"></source>
+    <source src="videos/oa_student.ogv" type="video/ogg"></source>  
+  </video>
+
+  <video width="420" height="345" controls preload>
+    <source src="videos/oa_instructor.mp4" type="video/mp4"></source>
+    <source src="videos/oa_instructor.webm" type="video/webm"></source>
+    <source src="videos/oa_instructor.ogv" type="video/ogg"></source>  
+  </video>
+
+  <iframe width="420" height="345" src="//www.youtube.com/embed/uxK2iDQGBGM"></iframe>
+
+  <div class="container">
+   <button id="play" onclick="playPause()">play/pause</button>
+   <button onclick="goLarge()">Large</button>
+   <button onclick="goMedium()">Default Size</button>
+   <button onclick="goSmall()">Small</button>
+   
+ </div> 
+ <script>
+    myVideo = document.getElementById('myVideo');
+  // myVideo.autoplay = true;
+  // myVideo.loop = true;
+  // myVideo.load();
+
+    function playPause () {
+      if(myVideo.paused){
+        myVideo.play();
+      }else{
+        myVideo.pause();
+      }
+    }
+
+    function goLarge(){
+      myVideo.width = 630;
+      myVideo.height = 518;
+    }
+    function goMedium(){
+      myVideo.width = 420;
+      myVideo.height = 345;
+    }
+    function goSmall(){
+      myVideo.width = 280;
+      myVideo.height = 230;
+    }
+  </script>
+</body>
+</html>

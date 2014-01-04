@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="oa">
+<head>
+  <title>IssueWithMongo</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag params[:controller], media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <script src="/js/plugins/ng-upload.js"></script>
+  <script src="/js/app.js"></script>
+  <%= javascript_include_tag params[:controller], "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+  <script src="/js/upload.js"></script>
+</body>
+</html>

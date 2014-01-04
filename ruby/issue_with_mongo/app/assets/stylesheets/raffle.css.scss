@@ -1,0 +1,27 @@
+// Place all the styles related to the raffle controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  border-top: solid 1px #ccc;
+}
+
+li{
+  border-bottom: solid 1px #ccc;
+  padding: 10px 10px;
+  font-size: 16px;
+  position: relative;
+  .winner{
+    position: relative;
+    left: 150px;
+    color: #999;
+    &.highlight{
+      color: #DD0000;
+      font-weight: bold;
+    }
+  }
+}

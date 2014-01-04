@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>localStorage</title>
+    <script src="http://modernizr.com/downloads/modernizr-latest.js"></script>
+</head>
+<body>
+<h2></h2>
+<script>
+// var supportsStorage = function(){
+//   try{
+//     return 'localStorage' in window && window['localStorage'] !== null;
+//   }catch(e){
+//     return false;
+//   }
+// };
+
+// if (supportsStorage) {alert("true");};
+
+if (Modernizr.localstorage) {alert("true");};
+
+
+
+  // localStorage.clear();
+  localStorage.setItem('name', 'Jingen Lin');
+  //localStorage.name = "Jingen Lin";// identical to the above one.
+  //localStorage['name'] = "Jingen Lin";
+
+  localStorage.getItem('name');
+  localStorage.name;
+
+  localStorage.removeItem('name');
+  delete localStorage.name;
+
+  if(localStorage.getItem("name")){
+    document.querySelector('h2').innerHTML = localStorage.getItem("name");
+  }
+</script>
+</body>
+</html>

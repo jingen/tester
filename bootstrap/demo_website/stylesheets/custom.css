@@ -1,0 +1,76 @@
+/* line 1, ../sass/custom.scss */
+body {
+  padding-top: 15em;
+}
+
+@media only screen and (max-width: 980px) {
+  /* line 6, ../sass/custom.scss */
+  body {
+    padding-top: 0;
+  }
+}
+/* line 11, ../sass/custom.scss */
+div#logo {
+  position: absolute;
+  z-index: 2;
+  top: 5px;
+  left: 0px;
+}
+
+/* line 18, ../sass/custom.scss */
+img#logo {
+  width: 370px;
+  height: 175px;
+}
+
+/* line 23, ../sass/custom.scss */
+div.navbar {
+  z-index: 1;
+}
+/* line 25, ../sass/custom.scss */
+div.navbar .brand {
+  position: relative;
+  left: 75px;
+}
+
+/* line 31, ../sass/custom.scss */
+div.form-actions {
+  margin: 0;
+  background-color: transparent;
+  text-align: center;
+}
+
+/* line 37, ../sass/custom.scss */
+div.slider-bg {
+  background-image: url("/img/laptop.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 770px;
+  height: 430px;
+}
+
+/* line 45, ../sass/custom.scss */
+div#home-carousel {
+  width: 490px;
+  position: relative;
+  top: 52px;
+  left: 139px;
+}
+/* line 50, ../sass/custom.scss */
+div#home-carousel .carousel-indicators li {
+  background-color: #ccc;
+}
+/* line 52, ../sass/custom.scss */
+div#home-carousel .carousel-indicators li.active {
+  background-color: black;
+}
+
+/* line 51, ../sass/custom.scss */
+ul.thumbnails {
+  margin: 0 auto;
+}
+/* line 53, ../sass/custom.scss */
+ul.thumbnails img {
+  width: 200px;
+  height: 200px;
+}

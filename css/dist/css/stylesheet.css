@@ -1,0 +1,35 @@
+.container{
+  background-color: grey;
+  border: 1px solid #c5c5c5;
+  /*overflow: hidden;*/
+}
+
+.cf:before,
+.cf:after{
+  content: " "; /*1*/
+  display: table; /*2*/
+}
+.cf:after{
+  clear: both;
+}
+.cf{
+  *zoom: 1;
+}
+
+img{
+  float: left;
+}
+h1{
+  color: yellow;
+}
+li{
+  color: black;
+}
+
+.female{
+  color: red ;
+}
+
+li.female strong{
+  font-weight: bold;
+}

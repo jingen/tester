@@ -1,0 +1,33 @@
+
+<script src="//codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+<script src="ng-upload.min.js"></script>
+
+<script>
+    angular.module('app', ['ngUpload'])
+    .controller('mainCtrl', function($scope) {
+        $scope.whatever = "test";
+        $scope.uploadComplete = function(content, completed) {
+            if (completed && typeof content != "undefined" && content.length > 0)
+                console.log(content); // process content
+            else
+            {
+                console.log(content,"content");
+                console.log("tsdihgsgS");
+                // 1. ignore content and adjust your model to show/hide UI snippets; or
+                // 2. show content as an _operation progress_ information
+            }
+        };
+    });
+</script>
+
+<div ng-app="app">
+    <div ng-controller="mainCtrl">
+        {{ whatever }}
+        <form novalidate name="testuploadform" id="testuploadform" ng-upload="uploadComplete" action="/uploads.php" upload-options-rails-csrf> 
+            <input type="file" name="avatar" ng-model="avatar"></input>
+            <input type="submit" value="send" class="upload-submit: uploadComplete(content, completed)">
+        </form>
+    </div>
+</div>
+

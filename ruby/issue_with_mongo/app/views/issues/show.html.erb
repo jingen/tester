@@ -1,0 +1,18 @@
+<p id="notice"><%= flash[:notice] %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @issue.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @issue.description %>
+</p>
+
+<p>
+  <strong>No followers:</strong>
+  <%= @issue.no_followers %>
+</p>
+<%= link_to 'Edit', edit_issue_path(@issue) %> |
+<%= link_to 'Back', issues_path %>

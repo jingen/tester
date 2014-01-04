@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Html5 Video</title>
+  <link rel="stylesheet" href="css/video.css">
+</head>
+<body>
+
+  <div class="video-container">
+    <video id="myVideo" width="640" height="360">
+      <source src="videos/oa_student.mp4" type="video/mp4"></source>
+      <source src="videos/oa_student.webm" type="video/webm"></source>
+      <source src="videos/oa_student.ogv" type="video/ogg"></source>  
+
+      <object data="flashfile.swf" type="application/x-shockwave-flash" width="640" height="360" />
+        <param name="movie" value="flashfile.swf">
+        <param name="flashfile" value="controlbar=over&amp;image=posterimage.jpg&amp;file=flashfile.swf" />
+      </object>
+    </video>
+
+    <div class="controls">
+      <button id="play">Play</button>
+      <input type="range" name="inputSeek" id="inputSeek" value="0">
+      <button id="mute">Mute</button>
+      <input type="range" name="inputVolume" id="inputVolume" value="1" min="0" max="1" step="0.1">
+      <button id="fullscreen">Full Screen</button>
+    </div>
+  </div>
+  <script src="js/video.js"></script>
+</body>
+</html>

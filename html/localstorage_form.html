@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>localStorage</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css">
+    <script src="http://modernizr.com/downloads/modernizr-latest.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+  <style>
+  textarea{
+    width: 300px;
+    height: 150px;
+  }
+  </style>
+</head>
+<body>
+
+<h2>LocalStorage</h2>
+<form class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" for="comment">Your Comment?</label>
+    <div class="controls">
+      <textarea name="comment" id="comment"></textarea>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+      <input class="btn btn-primary" type="submit" value="Submit">
+    </div>
+  </div>
+</form>
+
+
+
+<script>
+// detect localStorage support
+if (Modernizr.localstorage) {
+  //save comment every five seconds while writing in textarea
+
+  var comment = document.getElementById('comment'),
+      updateInterval;
+
+      //when page subsequently loads, detect storage, and apply value to textarea
+      // if (localStorage.comment) {
+      //   comment.value = localStorage.comment;
+      // };
+      !!localStorage.comment && (comment.value = localStorage.comment);
+
+
+      comment.addEventListener('focus', function(){
+        updateInterval = setInterval(function(){
+          localStorage.comment = comment.value;
+        }, 5000);
+      }, false);
+
+      comment.addEventListener('blur', function(){
+        clearInterval(updateInterval);
+      }, false);
+}
+
+</script>
+</body>
+</html>

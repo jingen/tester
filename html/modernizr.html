@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <title>Modernizr</title>
+  <!-- after stylesheets -->
+  <style>
+  .no-flexbox .container{
+    /*float*/
+  }
+  </style>
+  <script src="http://modernizr.com/downloads/modernizr-latest.js"></script>
+</head>
+<body>
+  <p>Modernizr</p>
+  <script>
+  if (!Modernizr.localstorage) {
+
+  };
+
+  if(!!Modernizr.geolocation){
+
+  }
+
+  localstorage.setItem('key', 'value');
+
+  Modernizr.load({
+    test: Modernizr.localstorage,
+    // yep: something.js,
+    nope: localstorage.js,
+    complete: function(){}
+  });
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>process meter</title>
+</head>
+<body>
+<form action="">
+  <progress></progress>
+  <progress min="0" max="100" value="0" id="mypro"></progress>
+  <meter min="0" max="100" value="50">50</meter>
+</form>
+
+<script>
+  var p = document.querySelector('#mypro');
+
+  //setTimeout
+  setInterval(function(){
+    p.value += 1;
+  }, 100);
+</script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap</title>
+
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css" />
+  <link rel="stylesheet" href="bootstrap/css/custom.css" />
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+  <div class="container">
+
+<!-- tabs-left, tabs-right, tabs-below -->
+    <div class="tabbable">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#tab1" data-toggle="tab">Link 1</a></li>
+        <li><a href="#tab2" data-toggle="tab">Link 2</a></li>
+        <li><a href="#tab3" data-toggle="tab">Link 3</a></li>
+        <li><a href="#tab4" data-toggle="tab">Link 4</a></li>
+        <li class="dropdown">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          
+          <ul class="dropdown-menu">
+            <li><a href="" tabindex="-1">Sublink 1</a></li>
+            <li><a href="" tabindex="-1">Sublink 1</a></li>
+            <li><a href="" tabindex="-1">Sublink 1</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <div class="tab-content">
+        <div class="tab-pane active" id="tab1">
+          <p>Tab 1 Content</p>
+        </div>
+        <div class="tab-pane" id="tab2">
+          <p>Tab 2 Content</p>
+        </div>
+        <div class="tab-pane" id="tab3">
+          <p>Tab 3 Content</p>
+        </div>
+        <div class="tab-pane" id="tab4">
+          <p>Tab 4 Content</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="nav nav-tabs nav-stacked pull-left">
+        <li class=""><a href="">Link 1</a></li>
+        <li><a href="">Link 2</a></li>
+        <li class="disabled"><a href="">Link 3</a></li>
+        <li><a href="">Link 4</a></li>
+        <li class="dropdown">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown">Link 5</a>
+
+          <ul class="dropdown-menu">
+            <li><a href="" tabindex-1="">Sublink</a></li>
+            <li><a href="" tabindex-1="">Sublink</a></li>
+            <li><a href="" tabindex-1="">Sublink</a></li>
+            <li><a href="" tabindex-1="">Sublink</a></li>
+            <li><a href="" tabindex-1="">Sublink</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav nav-pills nav-stacked pull-right">
+        <li class="active"><a href="">Link 1</a></li>
+        <li><a href="">Link 2</a></li>
+        <li><a href="">Link 3</a></li>
+        <li><a href="">Link 4</a></li>
+        <li><a href="">Link 5</a></li>
+      </ul>
+    </div>
+
+    <hr />
+    
+    <ul class="nav nav-pills">
+      <li class="active"><a href="">Link 1 nav-pills</a></li>
+      <li><a href="">Link 2</a></li>
+      <li><a href="">Link 3</a></li>
+      <li><a href="">Link 4</a></li>
+      <li><a href="">Link 5</a></li>
+    </ul>
+    
+   <hr>
+    
+    <ul class="nav nav-list">
+      <li class="active"><a href="">Link 1</a></li>
+      <li><a href="">Link 2</a></li>
+      <li><a href="">Link 3</a></li>
+      <li><a href="">Link 4</a></li>
+      <li><a href="">Link 5</a></li>
+    </ul>
+    
+    <hr />
+    
+    <ul class="nav nav-list">
+      <li class="nav-header">Header 1</li>
+      <li class="active"><a href="">Link 1</a></li>
+      <li><a href="">Link 2</a></li>
+      <li class="nav-header">Header 2</li>
+      <li class="disabled"><a href="">Link 3</a></li>
+      <li><a href="">Link 4</a></li>
+      <li class="divider"></li>
+      <li>
+        <a href="">Link 5</a>
+        <ul class="nav nav-list">
+          <li><a href="">Sublink 1</a></li>
+          <li><a href="">Sublink 1</a></li>
+        </ul>
+      </li>
+    </ul>
+    
+  
+  </div> 
+    
+  <!-- JavaScript -->
+  <script type="text/javascript">
+    $("#loading-button").click(function() {
+      var btn = $(this);
+      
+      btn.button('loading');
+      
+      setTimeout(function(){
+        btn.button('reset');
+      }, 3000);
+    });
+  </script>
+
+</body>
+</html>

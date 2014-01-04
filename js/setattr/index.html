@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input value="OK">
+
+<p id="demo">Click the button below to set the type attribute of the button above.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+
+function myFunction()
+{
+document.getElementsByTagName("INPUT")[0].setAttribute("type","button"); 
+};
+
+</script>
+
+<p>Internet Explorer 8 and earlier does not support the setAttribute method.</p>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>History</title>
+</head>
+<body>
+<img src="http://lorempixel.com/200/200/" alt="">
+  <ul>
+    <li><a href="http://lorempixel.com/200/200/city">city</a></li>
+    <li><a href="http://lorempixel.com/200/200/sports">sports</a></li>
+    <li><a href="http://lorempixel.com/200/200/people">people</a></li>
+  </ul>
+  <button id="button1">click1</button>
+  <button id="button2">click2</button>
+  <script>
+  var button1 = document.querySelector('#button1');
+  var button2 = document.querySelector('#button2');
+  button1.addEventListener('click', function(){
+    // history.go(0);
+    history.pushState(
+      'some data',
+      'My title',
+      'page'
+      )
+  },false);
+
+  button2.addEventListener('click', function(e){
+    console.log(e);
+    // history.popState();
+  });
+
+  window.addEventListener('popstate', function(e){
+    console.log(e);
+  });
+  // history.go(0)
+  // history.back(); forward(), go(-1) => back, go(2) => forward 2
+  // history.pushState(
+      //data,
+      //title,
+      //url
+      //
+  // )
+  // history.popState()
+  </script>
+</body>
+</html>

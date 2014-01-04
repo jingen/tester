@@ -1,0 +1,1882 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"d",
+				"dustin.jpg	w:-1 h:-1"
+			],
+			[
+				"dta",
+				"data"
+			],
+			[
+				"contr",
+				"control-group"
+			],
+			[
+				"ic",
+				"icons"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"group",
+				"groups"
+			],
+			[
+				"la",
+				"label"
+			],
+			[
+				"user",
+				"user_noti"
+			],
+			[
+				"user_",
+				"user_password"
+			],
+			[
+				"sele",
+				"selected	Attr"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"bd",
+				"bd+	border: ${1:1px} ${2:solid} ${3:#000};"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"thu",
+				"thumb_small"
+			],
+			[
+				"tar",
+				"targetScope"
+			],
+			[
+				"fir",
+				"firstname"
+			],
+			[
+				"ema",
+				"email_errors"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"ma",
+				"margin_left"
+			],
+			[
+				"pass",
+				"password_not_match"
+			],
+			[
+				"pa",
+				"password_params"
+			],
+			[
+				"password_",
+				"password_params"
+			],
+			[
+				"curr",
+				"current_password"
+			],
+			[
+				"im",
+				"imageChanging"
+			],
+			[
+				"old",
+				"old_invalid"
+			],
+			[
+				"new",
+				"new_password"
+			],
+			[
+				"change",
+				"change_password"
+			],
+			[
+				"label",
+				"label_tag"
+			],
+			[
+				"get",
+				"get_params"
+			],
+			[
+				"last",
+				"lastname"
+			],
+			[
+				"thum",
+				"thumb_med"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"if",
+				"if	ERB if"
+			],
+			[
+				"ue",
+				"user"
+			],
+			[
+				"gr",
+				"grid_base"
+			],
+			[
+				"ge",
+				"generate_base"
+			],
+			[
+				"con",
+				"container_"
+			],
+			[
+				"colum",
+				"column_width"
+			],
+			[
+				"co",
+				"column_width"
+			],
+			[
+				"sty",
+				"stylesheets"
+			],
+			[
+				"border",
+				"border_color"
+			],
+			[
+				"des",
+				"desaturate"
+			],
+			[
+				"gre",
+				"green_color"
+			],
+			[
+				"re",
+				"red_color"
+			],
+			[
+				"va",
+				"variable_function.css"
+			],
+			[
+				"chan",
+				"changeButton"
+			],
+			[
+				"vali",
+				"validate"
+			],
+			[
+				"sp",
+				"split"
+			],
+			[
+				"texta",
+				"textarea"
+			],
+			[
+				"ima",
+				"imageURL"
+			],
+			[
+				"img",
+				"imageURL"
+			],
+			[
+				"e",
+				"error"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"instr",
+				"instructorAgree"
+			],
+			[
+				"full",
+				"full_user_info"
+			],
+			[
+				"logged",
+				"logged_in"
+			],
+			[
+				"tri",
+				"trigger"
+			],
+			[
+				"ContentI",
+				"ContentItem"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"course_i",
+				"course_image"
+			],
+			[
+				"prev",
+				"preventDefault"
+			],
+			[
+				"User",
+				"UserUsername"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"rem",
+				"remember_me"
+			],
+			[
+				"mod",
+				"modulectnr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 17959,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/custom.scss",
+			"settings":
+			{
+				"buffer_size": 841,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"rem",
+				"Emmet: Remove Tag"
+			],
+			[
+				"sav",
+				"Project: Save As"
+			],
+			[
+				"fileco",
+				"File: Copy Name"
+			],
+			[
+				"co",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"git all",
+				"Git: Log All"
+			],
+			[
+				"git diff",
+				"Git: Diff All"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"per",
+				"Preferences: Settings - Default"
+			],
+			[
+				"perf",
+				"Preferences: Settings - Default"
+			],
+			[
+				"pack rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"set s",
+				"Set Syntax: Sass"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"br",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack re",
+				"Package Control: Remove Package"
+			],
+			[
+				"git p",
+				"Git: Pull"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"log",
+				"Git: Log Current File"
+			],
+			[
+				"git lo",
+				"Git: Log Current File"
+			],
+			[
+				"bla",
+				"Git: Blame"
+			],
+			[
+				"new",
+				"File: New View into File"
+			],
+			[
+				"git show",
+				"Git: Show Current File"
+			],
+			[
+				"git b",
+				"Git: Blame"
+			],
+			[
+				"git re",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git sho",
+				"Git: Show Current File"
+			],
+			[
+				"git ",
+				"Git: Blame"
+			],
+			[
+				"c",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"col",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"git",
+				"Git: Blame"
+			],
+			[
+				"new v",
+				"File: New View into File"
+			],
+			[
+				"colo",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"file s",
+				"File: Save All"
+			],
+			[
+				"file",
+				"File: Delete"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"quic",
+				"Git: Quick Commit"
+			],
+			[
+				"qu",
+				"Git: Quick Commit"
+			],
+			[
+				"pack ",
+				"Package Control: List Packages"
+			],
+			[
+				"color",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git di",
+				"Git: Diff All"
+			],
+			[
+				"git op",
+				"Git: Open Modified Files"
+			],
+			[
+				"set scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"copy",
+				"File: Copy Name"
+			],
+			[
+				"set php",
+				"Set Syntax: PHP"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"bra re",
+				"BracketHighlighter: Remove Brackets"
+			],
+			[
+				"br:re",
+				"BracketHighlighter: Remove Brackets"
+			],
+			[
+				"pack di",
+				"Package Control: Disable Package"
+			],
+			[
+				"ct",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"nre",
+				"File: New File Relative to Current View"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"pack li",
+				"Package Control: List Packages"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"sava",
+				"Project: Save As"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jingenlin/jobs/tech/Tester/bootstrap/demo_website/course.html",
+		"/Users/jingenlin/jobs/tech/Tester/bootstrap/demo_website/aboutus.html",
+		"/Users/jingenlin/jobs/tech/Tester/bootstrap/demo_website/css/bootstrap-responsive.css",
+		"/Users/jingenlin/jobs/openassembly2/app/views/partial/editcoursestructure.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/app/assets/stylesheets/courseview.css.scss",
+		"/Users/jingenlin/jobs/openassembly2/app/views/layouts/angular.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/public/js/bootstrap.min.js",
+		"/Users/jingenlin/jobs/openassembly2/public/css/bootstrap-combined.min.css",
+		"/Users/jingenlin/jobs/openassembly2/app/views/partial/profile.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/public/coffee/profile/user.coffee",
+		"/Users/jingenlin/jobs/openassembly2/app/assets/stylesheets/users.css.scss",
+		"/Users/jingenlin/jobs/openassembly2/app/models/user.rb",
+		"/Users/jingenlin/jobs/openassembly2/app/controllers/users_controller.rb",
+		"/Users/jingenlin/jobs/openassembly2/app/views/partial/_us_states.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/app/models/image.rb",
+		"/Users/jingenlin/jobs/openassembly2/app/controllers/partial_controller.rb",
+		"/Users/jingenlin/jobs/openassembly2/app/views/partial/resource.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/public/js/router.js",
+		"/Users/jingenlin/jobs/openassembly2/app/views/shared/_header.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/public/js/controllers/home.js",
+		"/Users/jingenlin/jobs/openassembly2/app/views/devise/mailer/reset_password_instructions.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/public/js/profile/user.js",
+		"/Users/jingenlin/jobs/openassembly2/app/views/devise/passwords/edit.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/public/js/controllers/user.js",
+		"/Users/jingenlin/jobs/openassembly2/config/routes.rb",
+		"/Users/jingenlin/jobs/openassembly2/app/models/route.rb",
+		"/Users/jingenlin/jobs/openassembly2/app/controllers/comment_controller.rb",
+		"/Users/jingenlin/jobs/openassembly2/public/js/app.js",
+		"/Users/jingenlin/jobs/openassembly2/public/js/angular-file-upload.min.js",
+		"/Users/jingenlin/jobs/openassembly2/app/views/partial/resourceform.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/public/js/controllers/newresource.js",
+		"/Users/jingenlin/jobs/openassembly2/public/js/ng-upload.min.js",
+		"/Users/jingenlin/jobs/openassembly2/public/smoothdivscroll/index.html",
+		"/Users/jingenlin/jobs/openassembly2/app/views/welcome/index.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/app/views/partial/my_courses.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/app/assets/javascripts/users.js.coffee",
+		"/Users/jingenlin/jobs/openassembly2/app/views/partial/courseform.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/app/views/partial/addcomment.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/app/models/permission.rb",
+		"/Users/jingenlin/jobs/openassembly2/public/js/factories/user.js",
+		"/Users/jingenlin/jobs/openassembly2/app/views/partial/dashboard.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/app/assets/javascripts/application.js",
+		"/Users/jingenlin/jobs/openassembly2/public/js/interval.js",
+		"/Users/jingenlin/jobs/openassembly2/app/controllers/registrations_controller.rb",
+		"/Users/jingenlin/jobs/openassembly2/app/controllers/sessions_controller.rb",
+		"/Users/jingenlin/jobs/openassembly2/app/models/course.rb",
+		"/Users/jingenlin/jobs/openassembly2/config/environments/development.rb",
+		"/Users/jingenlin/jobs/openassembly2/config/s3.yml",
+		"/Users/jingenlin/jobs/openassembly2/app/assets/stylesheets/fonts.css.scss",
+		"/Users/jingenlin/jobs/openassembly2/app/assets/javascripts/contents.js.coffee",
+		"/Users/jingenlin/jobs/openassembly2/public/js/jplayer/add-on/jplayer.playlist.min.js",
+		"/Users/jingenlin/jobs/openassembly2/public/js/jquery.pageslide.min.js",
+		"/Users/jingenlin/jobs/openassembly2/public/js/jquery.freetile.min.js",
+		"/Users/jingenlin/jobs/openassembly2/public/js/controllers/dashboard.js",
+		"/Users/jingenlin/jobs/openassembly2/config/application.rb",
+		"/Users/jingenlin/jobs/openassembly2/app/controllers/courses_controller.rb",
+		"/Users/jingenlin/jobs/openassembly2/config/environment.rb",
+		"/Users/jingenlin/jobs/openassembly2/Gemfile",
+		"/Users/jingenlin/jobs/openassembly2/app/views/partial/newcourse.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/public/js/controllers/newcourse.js",
+		"/Users/jingenlin/jobs/openassembly2/app/views/devise/sessions/new.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/app/controllers/welcome_controller.rb",
+		"/Users/jingenlin/jobs/openassembly2/config/database.yml",
+		"/Users/jingenlin/jobs/openassembly2/config/mongoid.yml",
+		"/Users/jingenlin/jobs/openassembly2/app/views/devise/registrations/new.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/app/assets/stylesheets/welcome.css.scss",
+		"/Users/jingenlin/jobs/openassembly2/app/views/devise/registrations/edit.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/config/initializers/devise.rb",
+		"/Users/jingenlin/jobs/openassembly2/app/models/topic.rb",
+		"/Users/jingenlin/jobs/openassembly2/app/models/content.rb",
+		"/Users/jingenlin/jobs/openassembly2/app/controllers/contents_controller.rb",
+		"/Users/jingenlin/jobs/openassembly2/app/controllers/application_controller.rb",
+		"/Users/jingenlin/jobs/tech/rails_devise/mongoid-devise/Gemfile",
+		"/Users/jingenlin/jobs/openassembly2/app/models/comment.rb",
+		"/Users/jingenlin/jobs/openassembly2/app/models/subject.rb",
+		"/Users/jingenlin/jobs/openassembly2/app/views/partial/tagbox.html.erb",
+		"/Users/jingenlin/jobs/openassembly2/app/models/2",
+		"/Users/jingenlin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jingenlin/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/jingenlin/jobs/tech/sass/sprites.html",
+		"/Users/jingenlin/jobs/tech/sass/sass/sprites.scss",
+		"/Users/jingenlin/jobs/tech/sass/stylesheets/sprites.css",
+		"/Users/jingenlin/jobs/tech/sass/stylesheets/urlhelper.css",
+		"/Users/jingenlin/jobs/tech/sass/sass/urlhelper.scss",
+		"/Users/jingenlin/jobs/tech/sass/stylesheets/compass_mixin.css",
+		"/Users/jingenlin/jobs/tech/sass/sass/compass_mixin.scss",
+		"/Users/jingenlin/jobs/tech/sass/stylesheets/import_on_steroids.css",
+		"/Users/jingenlin/jobs/tech/sass/sass/import_on_steroids.scss",
+		"/Users/jingenlin/jobs/tech/sass/css/import_on_steroids.css",
+		"/Users/jingenlin/jobs/tech/sass/sass/test/test.scss",
+		"/Users/jingenlin/jobs/tech/sass/sass/_body.scss",
+		"/Users/jingenlin/jobs/tech/sass/sass/function_mixin_convert_sass.sass",
+		"/Users/jingenlin/jobs/tech/sass/sass/function_mixin.scss",
+		"/Users/jingenlin/jobs/tech/sass/sass/variable_function.scss",
+		"/Users/jingenlin/jobs/tech/sass/sass/function_mixin_sass.sass",
+		"/Users/jingenlin/jobs/tech/sass/css/variable_function.css",
+		"/Users/jingenlin/jobs/tech/sass/variable_function.html",
+		"/Users/jingenlin/jobs/tech/sass/sass/_normalize.scss",
+		"/Users/jingenlin/jobs/tech/sass/selector_inheritance.html",
+		"/Users/jingenlin/jobs/tech/sass/sass/selector_inheritance.scss",
+		"/Users/jingenlin/jobs/tech/sass/sass/nesting.scss",
+		"/Users/jingenlin/jobs/tech/sass/notes.sh",
+		"/Users/jingenlin/jobs/dev/sql/openassembly_prod.sql",
+		"/Users/jingenlin/jobs/dev/sql/courses.txt",
+		"/Users/jingenlin/jobs/dev/sql/users.txt",
+		"/Users/jingenlin/jobs/Open-Assembly/app/webroot/js/pages/dashboard_my_student.js",
+		"/Users/jingenlin/jobs/Open-Assembly/app/webroot/js/pages/dashboard_course_outliner.js",
+		"/Users/jingenlin/jobs/Open-Assembly/app/Controller/DashboardController.php",
+		"/Users/jingenlin/jobs/Open-Assembly/app/webroot/js/elements/course_image_upload.js",
+		"/Users/jingenlin/jobs/Open-Assembly/app/webroot/js/pages/dashboard_general.js",
+		"/Users/jingenlin/jobs/Open-Assembly/app/View/Dashboard/course_info_edit.ctp",
+		"/Users/jingenlin/jobs/Open-Assembly/app/View/Elements/popup_window_for_courses.ctp",
+		"/Users/jingenlin/jobs/projects/flp/blind/functions.php",
+		"/Users/jingenlin/jobs/flp/jp_q_import.php",
+		"/Users/jingenlin/jobs/Open-Assembly/app/View/Elements/add_new_content_form.ctp",
+		"/Users/jingenlin/jobs/Open-Assembly/app/webroot/js/elements/conditions.js",
+		"/Users/jingenlin/jobs/Open-Assembly/app/webroot/js/pages/dashboard_content_items.js",
+		"/Users/jingenlin/jobs/Open-Assembly/app/webroot/js/elements/general_fixes.js",
+		"/Users/jingenlin/jobs/Open-Assembly/app/Controller/UsersController.php",
+		"/Users/jingenlin/jobs/tmp/jingen/test.log",
+		"/Users/jingenlin/jobs/tmp/subscribed_invited.txt",
+		"/Users/jingenlin/jobs/tmp/userlist.txt",
+		"/Users/jingenlin/jobs/tmp/oa.sql",
+		"/Users/jingenlin/jobs/Open-Assembly/app/Controller/AppController.php",
+		"/Users/jingenlin/jobs/Open-Assembly/app/tmp/logs/error.log",
+		"/Users/jingenlin/jobs/Open-Assembly/app/index.php",
+		"/Users/jingenlin/jobs/Open-Assembly/app/View/Dashboard/profile_edit.ctp",
+		"/Users/jingenlin/jobs/Open-Assembly/app/webroot/js/elements/content_item_file_upload.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"*.js",
+			"",
+			"*.js",
+			"",
+			"*.js",
+			"",
+			"*.js",
+			"",
+			"*.js",
+			"*.ctp",
+			"",
+			"*.js",
+			"",
+			"*.js",
+			"",
+			"*.ctp, *.js",
+			"",
+			"*.ctp",
+			"*.js",
+			"",
+			"*.ctp",
+			"",
+			"*.ctp",
+			"*.js",
+			"",
+			"*.js",
+			"",
+			"*.ctp",
+			"*.ctp, *.html",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"header",
+			"previous",
+			"accordion",
+			"name",
+			"login_modal",
+			"login-modal",
+			"modal",
+			"data-toggle=\"modal\"",
+			"modal",
+			"span",
+			"\n    ",
+			"userbox",
+			"homeController",
+			"userbox",
+			"btn",
+			"dashboard",
+			"field_with_errors",
+			"lastname",
+			"userbox",
+			"Buser.thumb_med",
+			"thumb_med",
+			"upload",
+			"me",
+			"upload-submit",
+			"lastname",
+			"firstname",
+			"my courses",
+			"ui-view",
+			"dashboard",
+			"attached_file",
+			"params.require",
+			"course.state",
+			"app",
+			"ui.router",
+			"angular-ui-router",
+			"ui.router",
+			"router",
+			"authenticate_user",
+			"validate",
+			"development",
+			"password",
+			"create_index",
+			"query",
+			"ngResource",
+			"sign_in_and_redirect",
+			"attr_accessible",
+			"gem",
+			"sqlite3",
+			"Tree",
+			"inflect.singular",
+			"ActiveSupport",
+			"Mongoid",
+			"active_record",
+			"content.image",
+			"content.",
+			"img/course",
+			"has_mongoid_attached_file",
+			"add_attachment",
+			"has_attached_file",
+			"notice",
+			"red",
+			"yahoo.com",
+			"my-student-email",
+			"image/*",
+			"pdf",
+			"pdf_file",
+			"content",
+			"course-image-upload-change-button",
+			"add_course_image_upload_iframe",
+			"end",
+			"createcoursemodalform",
+			"my_courses_search_box_add_course",
+			"CourseEditSubmit",
+			"condition_of_use_conclusion",
+			"unique-url-input",
+			"x",
+			"email",
+			"my_student_submit",
+			"inviteEmail",
+			"course_info_course_image",
+			"CourseEditSubmit",
+			"subject_subarea_2",
+			"add-content-method-add-new",
+			"execute",
+			"contentitemcontentaddmode",
+			"content-add-method-select",
+			"ContentItemContentAddMode",
+			"contentitemcontentaddmode",
+			"ContentItemContentAddMode",
+			"uploading-content-into-library",
+			"add-content-method-add-new",
+			"non-prefilled",
+			"checkContentCost",
+			"CreativecommonId1",
+			"my_courses_upload_condition_edit",
+			"ui-icon-closethick",
+			"my_courses_upload_condition_edit",
+			"checkContentCost",
+			"my_courses_upload_condition_edit",
+			"my_courses_upload_condition_save",
+			"non-prefilled",
+			"my_courses_upload_condition_edit",
+			"non-prefilled",
+			"my_courses_upload_condition_edit",
+			"$(\"div.instructor_agree\").",
+			"find",
+			"find(\"",
+			"array('type'",
+			"style",
+			"Beta User Agreement",
+			"error",
+			".css",
+			"checked",
+			"You have to agree to the Pilot Terms of Use.",
+			"registration_overlay_submit_button-wrapper",
+			"registration_overlay_submit_button",
+			"logged_in",
+			"user-login-open",
+			"auto_fi",
+			"accept",
+			"Accepts",
+			"accepts",
+			"ContentType",
+			"contentType",
+			"topicdragopts",
+			"accept",
+			"contents",
+			"array"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"next",
+			"message",
+			"email",
+			"password_errors",
+			"user",
+			"email",
+			"lastname",
+			"i",
+			"this_start_day",
+			"this_start_month",
+			"this_start_year",
+			"checkbox"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14612,
+								14612
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "sass/custom.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								674,
+								674
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.66,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"project": "homepage.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"cu",
+				"sass/custom.scss"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"boo",
+				"public/css/bootstrap-combined.min.css"
+			],
+			[
+				"boot",
+				"public/js/bootstrap.min.js"
+			],
+			[
+				"an",
+				"app/views/layouts/angular.html.erb"
+			],
+			[
+				"user.co",
+				"public/coffee/profile/user.coffee"
+			],
+			[
+				"partialco",
+				"app/controllers/partial_controller.rb"
+			],
+			[
+				"partial",
+				"app/views/partial/resource.html.erb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"image",
+				"app/models/image.rb"
+			],
+			[
+				"userco",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"usercont",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"user.css",
+				"app/assets/stylesheets/users.css.scss"
+			],
+			[
+				"user_con",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"user.js",
+				"public/js/profile/user.js"
+			],
+			[
+				"angu",
+				"app/views/layouts/angular.html.erb"
+			],
+			[
+				"password",
+				"app/views/devise/passwords/edit.html.erb"
+			],
+			[
+				"passwor",
+				"app/views/devise/mailer/reset_password_instructions.html.erb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"route",
+				"app/models/route.rb"
+			],
+			[
+				"usercon",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"user.cs",
+				"app/assets/stylesheets/users.css.scss"
+			],
+			[
+				"comment",
+				"app/controllers/comment_controller.rb"
+			],
+			[
+				"rout",
+				"public/js/router.js"
+			],
+			[
+				"prof",
+				"app/views/partial/profile.html.erb"
+			],
+			[
+				"angular-up",
+				"public/js/angular-file-upload.min.js"
+			],
+			[
+				"app",
+				"public/js/app.js"
+			],
+			[
+				"user.coff",
+				"public/coffee/profile/user.coffee"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"users_",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"users_co",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"angular.h",
+				"app/views/layouts/angular.html.erb"
+			],
+			[
+				"user.r",
+				"app/models/user.rb"
+			],
+			[
+				"app.js",
+				"public/js/app.js"
+			],
+			[
+				"profi",
+				"app/views/partial/profile.html.erb"
+			],
+			[
+				"per",
+				"app/models/permission.rb"
+			],
+			[
+				"img",
+				"app/models/image.rb"
+			],
+			[
+				"my_courses",
+				"app/views/partial/my_courses.html.erb"
+			],
+			[
+				"routes.rb",
+				"config/routes.rb"
+			],
+			[
+				"partial/dashboard",
+				"app/views/partial/dashboard.html.erb"
+			],
+			[
+				"inde",
+				"public/smoothdivscroll/index.html"
+			],
+			[
+				"s3",
+				"config/s3.yml"
+			],
+			[
+				"jplayer",
+				"public/js/jplayer/add-on/jplayer.playlist.min.js"
+			],
+			[
+				"pageslide",
+				"public/js/jquery.pageslide.min.js"
+			],
+			[
+				"free",
+				"public/js/jquery.freetile.min.js"
+			],
+			[
+				"inter",
+				"public/js/interval.js"
+			],
+			[
+				"ap",
+				"public/js/app.js"
+			],
+			[
+				"ang",
+				"app/views/layouts/angular.html.erb"
+			],
+			[
+				"im",
+				"app/models/image.rb"
+			],
+			[
+				"user_c",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"regi",
+				"app/controllers/registrations_controller.rb"
+			],
+			[
+				"se",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"userc",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"u",
+				"app/models/user.rb"
+			],
+			[
+				"wel",
+				"app/controllers/welcome_controller.rb"
+			],
+			[
+				"env",
+				"config/environment.rb"
+			],
+			[
+				"cor",
+				"app/models/course.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"newcour",
+				"app/views/partial/newcourse.html.erb"
+			],
+			[
+				"router",
+				"public/js/router.js"
+			],
+			[
+				"newcou",
+				"public/js/controllers/newcourse.js"
+			],
+			[
+				"course_c",
+				"app/controllers/courses_controller.rb"
+			],
+			[
+				"new",
+				"app/views/devise/sessions/new.html.erb"
+			],
+			[
+				"reg",
+				"app/controllers/registrations_controller.rb"
+			],
+			[
+				"sess",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"config/a",
+				"config/application.rb"
+			],
+			[
+				"devi",
+				"config/initializers/devise.rb"
+			],
+			[
+				"dev",
+				"config/environments/development.rb"
+			],
+			[
+				"mong",
+				"config/mongoid.yml"
+			],
+			[
+				"conte",
+				"app/models/content.rb"
+			],
+			[
+				"6",
+				"stylesheets/960.css"
+			],
+			[
+				"spr",
+				"sprites.html"
+			],
+			[
+				"spri",
+				"stylesheets/sprites.css"
+			],
+			[
+				"url",
+				"stylesheets/urlhelper.css"
+			],
+			[
+				"com",
+				"stylesheets/compass_mixin.css"
+			],
+			[
+				"impr",
+				"stylesheets/import_on_steroids.css"
+			],
+			[
+				"imp",
+				"css/import_on_steroids.css"
+			],
+			[
+				"body",
+				"sass/_body.scss"
+			],
+			[
+				"fu",
+				"sass/function_mixin.scss"
+			],
+			[
+				"sass",
+				"sass/function_mixin_convert_sass.sass"
+			],
+			[
+				"sa",
+				"sass/variable_function.scss"
+			],
+			[
+				"f",
+				"sass/function_mixin_sass.sass"
+			],
+			[
+				"fsas",
+				"css/function_mixin_sass.css"
+			],
+			[
+				"fun",
+				"css/function_mixin.css"
+			],
+			[
+				"va",
+				"css/variable_function.css"
+			],
+			[
+				"v",
+				"variable_function.html"
+			],
+			[
+				"sel",
+				"sass/selector_inheritance.scss"
+			],
+			[
+				"sele",
+				"selector_inheritance.html"
+			],
+			[
+				"ne",
+				"sass/nesting.scss"
+			],
+			[
+				"no",
+				"notes.sh"
+			],
+			[
+				"us",
+				"users.txt"
+			],
+			[
+				"o",
+				"openassembly_prod.sql"
+			],
+			[
+				"op",
+				"openassembly_prod.sql"
+			],
+			[
+				"c",
+				"courses.txt"
+			],
+			[
+				"course_image_upload",
+				"View/Dashboard/course_image_upload.ctp"
+			],
+			[
+				"mysjs",
+				"webroot/js/pages/dashboard_my_student.js"
+			],
+			[
+				"dashb",
+				"Controller/DashboardController.php"
+			],
+			[
+				"jp",
+				"jp_q_import.php"
+			],
+			[
+				"/register_login",
+				"webroot/js/elements/register_login.js"
+			],
+			[
+				"error",
+				"tmp/logs/error.log"
+			],
+			[
+				"dash",
+				"Controller/DashboardController.php"
+			],
+			[
+				"contentitemfile",
+				"View/Dashboard/content_item_file_upload.ctp"
+			],
+			[
+				"invite_student",
+				"View/Emails/html/invite_student.ctp"
+			],
+			[
+				"profile_e",
+				"webroot/js/pages/profile_edit.js"
+			],
+			[
+				"pro",
+				"View/Dashboard/profile_edit.ctp"
+			],
+			[
+				"/my_student",
+				"View/Dashboard/my_student.ctp"
+			],
+			[
+				"oa_dashboard_course_edit.css",
+				"webroot/css/stylesheets/dashboard/oa_dashboard_course_edit.css"
+			],
+			[
+				"oa_dashboard_coursecss",
+				"webroot/css/sass/dashboard/oa_dashboard_course_edit.css"
+			],
+			[
+				"oa_dashbaord_course_edit.scss",
+				"webroot/css/sass/dashboard/oa_dashboard_course_edit.scss"
+			],
+			[
+				"cours_im",
+				"View/Dashboard/course_image_upload.ctp"
+			],
+			[
+				"das",
+				"Controller/DashboardController.php"
+			],
+			[
+				"coruseim",
+				"View/Dashboard/course_image_upload.ctp"
+			],
+			[
+				"dashbeditjs",
+				"webroot/js/pages/dashboard_course_info_edit.js"
+			],
+			[
+				"twiter",
+				"webroot/css/sass/pages/twitter.scss"
+			],
+			[
+				"twitter",
+				"webroot/css/sass/pages/twitter.scss"
+			],
+			[
+				"content_",
+				"View/Admin/content_history.ctp"
+			],
+			[
+				"courses",
+				"Controller/CoursesController.php"
+			],
+			[
+				"conteitfi",
+				"View/Dashboard/content_item_file_upload.ctp"
+			],
+			[
+				"contentitemfileupload",
+				"View/Dashboard/content_item_file_upload.ctp"
+			],
+			[
+				"admin",
+				"Controller/AdminController.php"
+			],
+			[
+				"course_",
+				"View/Admin/course_history.ctp"
+			],
+			[
+				"remem",
+				"webroot/js/pages/remember_me.js"
+			],
+			[
+				"oa_form_ele",
+				"webroot/css/sass/general/oa_form_elements.scss"
+			],
+			[
+				"my_library",
+				"View/Dashboard/my_library.ctp"
+			],
+			[
+				"addcontent",
+				"View/CollectionsContentItems/add_content.ctp"
+			],
+			[
+				"",
+				"Controller/DashboardController.php"
+			],
+			[
+				"mystu",
+				"View/Dashboard/my_student.ctp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"u",
+				"~/jobs/projects/couse_user.sublime-project"
+			],
+			[
+				"",
+				"~/jobs/projects/openassembly.sublime-project"
+			],
+			[
+				"o",
+				"~/jobs/projects/openassembly.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"mys",
+				"my_student"
+			],
+			[
+				"my_student",
+				"my_student"
+			],
+			[
+				"course_mo",
+				"course_modules_view"
+			]
+		],
+		"width": 714.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

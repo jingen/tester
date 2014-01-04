@@ -1,0 +1,11 @@
+li{
+  color: black;
+}
+
+.female{
+  color: red ;
+}
+
+li.female strong{
+  font-weight: bold;
+}

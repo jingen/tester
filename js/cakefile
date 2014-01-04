@@ -1,0 +1,7 @@
+{exec} = require 'child_process'
+
+task 'compile', 'Compile all the .coffee files in coffee/ directory', ->
+    exec 'coffee -c -o js coffee/*.coffee'
+
+task 'watch', 'Watches for changes and recompiles the coffee files', ->
+    exec 'coffee -c --watch -o js coffee/*.coffee'

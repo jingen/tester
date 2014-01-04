@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "upload.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee/upload.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;CAAA,CAAA,CAAG,GAA0B,GAAC,CAA9B,EAAA;CACS,CAA2B,CAAV,GAAlB,CAAkB,EAAC,EAAzB,GAAA;CACU,EAAR,IAAO,MAAP;CAFyB,IACH;CAD1B,EAA6B;CAA7B"
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap</title>
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/bootstrap-responsive.css" />
+	<link rel="stylesheet" href="css/custom.css" />
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<div class="container">
+
+		<a href="#" data-toggle="tooltip" data-placement="right" data-animation="false" id="basic-tooltip" data-title="New title">Hover over me</a>
+
+		<hr />
+		
+		<a href="#" class="btn btn-primary" data-toggle="popover" title="First popover" data-content="This is the popover content." data-placement="top">Click me</a>
+
+	</div>
+
+	<!-- JavaScript -->
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+		$("#basic-tooltip").tooltip();
+		$(".btn").popover();
+	</script>
+
+</body>
+</html>
