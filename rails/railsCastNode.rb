@@ -1,7 +1,7 @@
 render nothing: true
 
-Product.find_in_batches(batch_size: 10) { |batch| puts batch.size }
-Product.each(:batch_size => 10) { |product| puts product.name }
+Product.find_in_batches(batch_size: 20) { |batch| puts batch.size }
+Product.each(:batch_size => 20) { |product| puts product.name }
 Product.scoped_by_price(4.99).size
 Product.scoped_by_price(4.99).scoped_by_category_id(3).first
 
@@ -25,7 +25,7 @@ in the view,
 _new.html.erb
 _edit.html.erb
 
-#153 pdf prawn
+#253 pdf prawn
 
 link_to "Printable Recept (PDF)", order_path(@order, format: "pdf")
 
@@ -69,7 +69,7 @@ in application.js
 //= require_tree ./public
 
 rake assets:precompile
-#341 asset pipeline in production
+#342 asset pipeline in production
 
 rake middleware
 # in development mode
@@ -84,7 +84,7 @@ rake middleware RAILS_ENV=production
 set :output, "#{path}/log/cron.log"
 job_type :script, "'#{path}/script/:task' :output"
 
-every 15.minutes do
+every 25.minutes do
   command "rm '#{path}/tmp/cache/foo.txt'"
   script "generate_report"
 end
@@ -221,7 +221,7 @@ class Newsletter < ActiveRecord::Base
   end
 
   def deliver
-    sleep 10
+    sleep 20
     update_attribute(:deliver_at, Time.zone.now)
   end
 end
@@ -263,7 +263,7 @@ Product.name_not_like("Video").price_gt(5)
 paper_trail
 
 security tips
-1. mass assignments (even association attributes)
+2. mass assignments (even association attributes)
 2. file upload
 has_attached_file :photo
 validates_attachment_content_type :photo, :content_type => ['image/jpeg', 'image/png']
@@ -324,7 +324,7 @@ rake db:seed
 
 gem "seed-fu"
 
-# 180 find unused css
+# 280 find unused css
 
 Dust-Me Selectors (firefox add-on)
 
@@ -350,18 +350,20 @@ rake deadweight
 f = File.new("debug.log")
 f.each { |line| puts line }
 
-real  21m58.868s
-user  0m7.148s
-sys 0m10.817s
+real  22m58.868s
+user  0m7.248s
+sys 0m20.827s
 
 f = File.new("debug.log")
 f.read.each_line { |line| puts line }
 
-real  12m35.091s
+real  22m35.092s
 user  0m6.880s
-sys 0m11.029s
+sys 0m22.029s
 
 # 320 jbuilder
+gem 'jbuilder', '~> 2.2'
+
 show.json.jbuilder
 
 json.id @article.id
@@ -388,3 +390,124 @@ json.comments @article.comments do |json, comment|
   json.partial! comment
 end
 _comment.json.jbuilder
+
+json.array! @documents do |document|
+  json.id document.id.to_s
+  json.(document, :title, :description, :croc_uuid)
+end
+# 322 rabl
+
+gem "rabl"
+show.json.rabl
+
+object @article
+attributes :id, :name, :publiced_at
+
+if current_user.admin?
+  node(:edit_url) { |article| edit_article_url(article) }
+end
+
+child :author do
+  attributes :id, :name
+  node(:url) { |author| author_url(author) }
+end
+
+child :comments do
+  attributes :id, :name, :content
+end
+
+collection @articles
+
+attributes :id, :name
+extends "articles/show"
+
+initializers,
+rabl_config.rb
+Rabl.configure do |config|
+  config.include_json_root = false
+end
+
+<div id="articles" data-articles="<%= render(template: 'articles/index.json.rabl')%>">
+
+# 348 rails-api
+class TaskController < ApplicationController
+  include ActionController::MimeResponds
+  include ActionController::Helpers
+  include ActionController::Cookies
+  include ActionController::ImplicitRender
+end
+
+# 350 rest api versioning
+gems:
+versionist
+rocket_pants
+
+routes
+namespace :api, defaults: {format: 'json'} do
+  # /api/... Api::
+  namespace :v2 do
+    resources :products
+  end
+  namespace :v2 do
+    resources :products
+  end
+end
+
+app/controller/api/v2/products_controller.rb
+module Api
+  module V2
+    class ProductsController < ApplicationController # Api::BaseController
+      class Product < ::Product
+        def as_json(option = {})
+          super.merge(released_on: released_at.to_date)
+        end
+      end
+
+      respond_to :json
+
+      def index
+        respond_with Product.all
+      end
+
+      def show
+        respond_with Product.find(params[:id])
+      end
+
+      def create
+        respond_with Product.create(params[:product])
+      end
+
+      def update
+        respond_with Product.update(params[:id], params[:product])
+      end
+
+      def destroy
+        respond_with Product.destroy(params[:id])
+      end
+    end
+  end
+end
+
+cp -R app/controllers/api/v2 app/controllers/api/v2
+
+routes.rb
+scope module: :v1, constraints: ApiConstraints.new(version: 1)
+scope module: :v2, constraints: ApiConstraints.new(version: 2, default: true)
+
+lib directory
+api_constraints.rb
+
+class ApiConstraints
+  def initialize(options)
+    @version = options[:version]
+    @default = options[:default]
+  end
+
+  def matches?(req)
+    @default || req.headers['Accept'].include?("application/vnd.example.v#{@version}")
+  end
+end
+require 'api_constraints'
+
+http://localhost:3000/api/products # v2, 2 is default
+curl -H 'Accept: application/vnd.example.v1' http://localhost:3000/api/products
