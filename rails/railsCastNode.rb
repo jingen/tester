@@ -360,3 +360,31 @@ f.read.each_line { |line| puts line }
 real  12m35.091s
 user  0m6.880s
 sys 0m11.029s
+
+# 320 jbuilder
+show.json.jbuilder
+
+json.id @article.id
+...
+json.extract! @article, :id, :name, :published_at
+==
+json.(@article, :id, :name, :published_at)
+
+json.edit_url edit_article_url(@article) if current_user.admin?
+json.author @article.author, :id, :name
+
+json.author do |json|
+  json.(@article.author, :id, :name)
+  json.url author_url(@article.author)
+end
+
+json.comments @article.comments, :id, :name, :content
+
+json.comments @article.comments do |json, comment|
+  json.(comment, :id, :name, :content)
+end
+
+json.comments @article.comments do |json, comment|
+  json.partial! comment
+end
+_comment.json.jbuilder
